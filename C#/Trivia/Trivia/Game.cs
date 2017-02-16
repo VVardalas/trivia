@@ -8,7 +8,6 @@ namespace UglyTrivia
     public class Game
     {
 
-
         List<string> players = new List<string>();
 
         int[] places = new int[6];
