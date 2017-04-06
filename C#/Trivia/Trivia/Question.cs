@@ -8,12 +8,10 @@
 
         public string Reponse { get; set; }
 
-        public TypeQuestion TypeQuestion { get; private set; }
 
         /*Constructeur*/
-        public Question(TypeQuestion typeQuestion, string enonce, string reponse)
+        public Question(string enonce, string reponse)
         {
-            TypeQuestion = typeQuestion;
             Enonce = enonce;
             Reponse = reponse;
         }
