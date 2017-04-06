@@ -16,5 +16,7 @@ namespace Trivia
             Questions = new List<Question>();
             Type = type;
         }
+
+
     }
 }
